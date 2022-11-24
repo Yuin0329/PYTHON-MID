@@ -38,5 +38,5 @@ def splitString(str):
  else:
       print("Invalid password") 
       
-text=input(str())
+text=str(input()) 
 splitString(text)

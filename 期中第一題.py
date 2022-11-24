@@ -23,7 +23,10 @@ def snake_and_camel(text):
         print('invalid name')
     else:
         print('') 
-text=input(list)
-N=input(int())
-for n in 
-    snake_and_camel(text) 
+N=int(input())
+list1=[]
+for i in range(0,N):
+    text=input(str())
+    list1+=[text]
+
+snake_and_camel() 
