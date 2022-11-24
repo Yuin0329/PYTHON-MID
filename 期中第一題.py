@@ -17,20 +17,20 @@ def snake_and_camel():
                 a=item.split('_')
                 camel = a[0] + ''.join(n.title() for n in a[1:])
                 list1.append(camel)
-            elif item.find('_')==-1 and len(text)<=20  :
-                for n in item: 
+            elif item.find('_')==-1 and len(item)<=20  :
+                 for n in item: 
                     list2=[]
                     if n.isupper():
                         item = item.replace(n,"_"+str(n.lower())) 
-                        list2+=[item]
-                        del list2[:-1]
-                        k="".join(map(str,list2))
-                        list1.append(k)
+                    list2+=[item]
+                 del list2[:-1]
+                 k="".join(map(str,list2))
+                 list1.append(k)
             else:                       
                 list1.append('invalid name')
-    print(list1)
     k="\n".join(list1)
     print(k)
-snake_and_camel()   
+    #print(list2)
+snake_and_camel()    
 
  
