@@ -29,8 +29,9 @@ def snake_and_camel():
             else:                       
                 list1.append('invalid name')
     k="\n".join(list1)
+    print("======以下為輸出======")
     print(k)
     #print(list2)
-snake_and_camel()    
+snake_and_camel()     
 
  
