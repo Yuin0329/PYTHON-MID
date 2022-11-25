@@ -20,6 +20,7 @@ if a!=b :
                 list1.append(strnum)
         list1.reverse()
         k=" ".join(list1)
+        print(len(list1))
         print(k)
     elif b>a:
         for j in range(a,b):
@@ -27,4 +28,6 @@ if a!=b :
                 strnum=str(j)
                 list1.append(strnum)
         k=" ".join(list1)
+        print(len(list1))
         print(k)  
+ 
