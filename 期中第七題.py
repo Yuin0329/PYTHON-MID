@@ -7,11 +7,10 @@ Created on Sun Nov 27 03:12:06 2022
 
 n,m=map(int,input().split())
 k=[[0]*20 for g in range(7)]
-for i in range(0,n+1):
+for i in range(1,n+1):
     for j in range(0,6):
         k[i][j]=j+1
-print(k[0][0:6])
-
+print(k[1][0:6])
 for x in range(0,m):
     a,b=map(int,input().split())
     if a>0 and b>0:
@@ -34,4 +33,4 @@ for x in range(0,m):
             k[a][1]=temp
             print(k[a][0:6])
 for a in range(1,n+1):
-    print(k[a][0]) 
+       print(k[a][0])  
