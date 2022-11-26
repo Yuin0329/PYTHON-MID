@@ -6,8 +6,8 @@ Created on Sat Nov 26 01:55:52 2022
 """
 n = int(input())
 for i in range(n):
-    a = [int(x)for x in input().split()]
-    b = [int(x)for x in input().split()]
+    a = [int(float(x)) for x in input().split()]
+    b = [int(float(x)) for x in input().split()]
     rule = True
     if a[1] == a[3] or a[1] != a[5] or b[1] == b[3] or b[1] != b[5]:
         print("A",end="")
@@ -21,4 +21,4 @@ for i in range(n):
     if rule:
         print("None") 
     else:
-        print()
+        print() 
